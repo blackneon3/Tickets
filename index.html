@@ -6,6 +6,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <fieldset class="header">
+        <h1>Rejestracja na koncert</h1>
+        <form>
+            <fieldset>
+                <legend>Dane osobowe</legend>
+                    <p class="name-info">
+                        <label for="name">Imię:
+                            <input type="text" id="name" name="name">
+                        </label>
+                        <label for="surname">Nazwisko:
+                            <input type="text" id="surname" name="surname">
+                        </label>
+                    </p>
+                    <p class="email-info">
+                        <label for="email">Adres email:
+                            <input type="email" name="email" id="email">
+                        </label>
+                    </p>
+                    <p class="birth-info">
+                        <label for="date-of-birth">Data urodzenia:
+                            <input type="date" name="date-of-birth" id="date-of-birth">
+                        </label>
+                    </p>
+            </fieldset>
+            <button>
+                Zarejestruj się
+            </button>
+        </form>
+    </fieldset>
 </body>
 </html>
