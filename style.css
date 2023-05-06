@@ -1,7 +1,7 @@
 body {
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 fieldset {
