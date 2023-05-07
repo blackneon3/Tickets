@@ -1,36 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>Rejestracja na koncert</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <fieldset class="header">
-        <h1>Rejestracja na koncert</h1>
+    <main class="form-wrapper">
+        <h1>Rejestracja na koncert Męskie Granie 2023</h1>
         <form>
             <fieldset>
-                <legend>Dane osobowe</legend>
-                    <p class="name-info">
-                        <label for="name">Imię:
-                            <input type="text" id="name" name="name">
+                <legend class="personal-data">Dane osobowe</legend>
+                    <div class="name-info">
+                        <label>Imię:
+                            <input type="text" name="name">
                         </label>
-                        <label for="surname">Nazwisko:
-                            <input type="text" id="surname" name="surname">
+                        <label>Nazwisko:
+                            <input type="text" name="surname">
                         </label>
-                    </p>
-                    <p class="email-info">
-                        <label for="email">Adres email:
-                            <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label>Adres email:
+                            <input type="email" name="email">
                         </label>
-                    </p>
-                    <p class="birth-info">
-                        <label for="date-of-birth">Data urodzenia:
-                            <input type="date" name="date-of-birth" id="date-of-birth">
+                    </div>
+                    <div>
+                        <label>Data urodzenia:
+                            <input type="date" name="date-of-birth">
                         </label>
-                    </p>
+                    </div>
             </fieldset>
-            <button>
+            <button class="register-button">
                 Zarejestruj się
             </button>
         </form>
