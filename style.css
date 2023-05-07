@@ -5,16 +5,17 @@ body {
 }
 
 .registration-form {
-    border-color: #0d6efd;
+    border:1px solid #0d6efd;
     border-radius: 8px;
     padding: 16px;
     margin-bottom: 16px;
 }
 
 .form-wrapper {
-    border: 2px solid #0d6efd;
+    border: 1px solid #0d6efd;
     border-radius: 8px;
     padding: 16px;
+    width: 640px;
 }
 
 .register-button {
@@ -25,19 +26,16 @@ body {
     border: none;
 }
 
-.header {
-    width: 640px;
-}
-
 .personal-data {
     font-weight: bold;
 }
 
 .form-field {
     width: 100%;
-    border-color: #0d6efd;
+    border:1px solid #0d6efd;
     border-radius: 4px;
     margin: 8px 0;
+    padding: 4px;
 }
 
 .name-info {
