@@ -33,7 +33,7 @@ fieldset {
     font-weight: bold;
 }
 
-input {
+.form-field {
     width: 100%;
     border-color: #0d6efd;
     border-radius: 4px;
