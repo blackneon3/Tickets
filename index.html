@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>Rejestracja na koncert</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main class="form-wrapper">
+        <h1>Rejestracja na koncert Męskie Granie 2023</h1>
+        <form>
+            <fieldset class="registration-form">
+                <legend class="personal-data">Dane osobowe</legend>
+                    <div class="name-info">
+                        <label>Imię:
+                            <input class="form-field" type="text" name="name">
+                        </label>
+                        <label>Nazwisko:
+                            <input class="form-field" type="text" name="surname">
+                        </label>
+                    </div>
+                    <div>
+                        <label>Adres email:
+                            <input class="form-field" type="email" name="email">
+                        </label>
+                    </div>
+                    <div>
+                        <label>Data urodzenia:
+                            <input class="form-field"  type="date" name="date-of-birth">
+                        </label>
+                    </div>
+            </fieldset>
+            <button class="register-button">
+                Zarejestruj się
+            </button>
+        </form>
+    </fieldset>
 </body>
 </html>
