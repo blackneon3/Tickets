@@ -1,12 +1,15 @@
 :root {
     --default-color: #4CAF50;
     --default-border-radius: 8px;
+    --default-select-color: #0b5ed7;
 }
 
 body {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("music-2805506_960_720.jpg");
+    background-size: cover;
 }
 
 .registration-form {
@@ -20,7 +23,9 @@ body {
     border: 1px solid var(--default-color);
     border-radius: var(--default-border-radius);
     padding: 16px;
-    width: 640px;
+    max-width: 640px;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, .7);
 }
 
 .register-button {
@@ -29,6 +34,10 @@ body {
     padding: 4px 8px;
     color: #fff;
     border: none;
+}
+
+.register-button:hover {
+    background-color: var(--default-select-color);
 }
 
 .personal-data {
@@ -41,6 +50,12 @@ body {
     border-radius: var(--default-border-radius);
     margin: 8px 0;
     padding: 4px;
+}
+
+.form-field:focus-visible {
+    /* border: 2px solid #0b5ed7; */
+    outline: 2px solid var(--default-select-color);
+    box-shadow: 4px 4px 4px var(--default-select-color);
 }
 
 .name-info {
