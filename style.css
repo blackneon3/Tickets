@@ -1,7 +1,7 @@
 :root {
     --default-color: #4CAF50;
-    --default-border-radius: 8px;
     --default-select-color: #0b5ed7;
+    --default-border-radius: 8px;
 }
 
 body {
@@ -38,6 +38,7 @@ body {
 
 .register-button:hover {
     background-color: var(--default-select-color);
+    transition: 1s;
 }
 
 .personal-data {
@@ -50,12 +51,13 @@ body {
     border-radius: var(--default-border-radius);
     margin: 8px 0;
     padding: 4px;
+    box-shadow: 0 0 0  0var(--default-select-color);
 }
 
 .form-field:focus-visible {
-    /* border: 2px solid #0b5ed7; */
-    outline: 2px solid var(--default-select-color);
-    box-shadow: 4px 4px 4px var(--default-select-color);
+    outline: none;
+    box-shadow: 0 0 0 2px var(--default-select-color);
+    transition: 300ms;
 }
 
 .name-info {
